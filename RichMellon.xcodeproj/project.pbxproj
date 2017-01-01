@@ -1,0 +1,916 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C85E1A8417D31E5A5537D49 /* libPods-RichMellonUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46246B094E00368068934907 /* libPods-RichMellonUITests.a */; };
+		8EBB22831E16DAFD00E1FD30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBB22821E16DAFD00E1FD30 /* main.m */; };
+		8EBB22861E16DAFD00E1FD30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBB22851E16DAFD00E1FD30 /* AppDelegate.m */; };
+		8EBB228C1E16DAFD00E1FD30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EBB228A1E16DAFD00E1FD30 /* Main.storyboard */; };
+		8EBB228F1E16DAFD00E1FD30 /* RichMellon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8EBB228D1E16DAFD00E1FD30 /* RichMellon.xcdatamodeld */; };
+		8EBB22911E16DAFD00E1FD30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EBB22901E16DAFD00E1FD30 /* Assets.xcassets */; };
+		8EBB22941E16DAFD00E1FD30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EBB22921E16DAFD00E1FD30 /* LaunchScreen.storyboard */; };
+		8EBB229F1E16DAFD00E1FD30 /* RichMellonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBB229E1E16DAFD00E1FD30 /* RichMellonTests.m */; };
+		8EBB22AA1E16DAFD00E1FD30 /* RichMellonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBB22A91E16DAFD00E1FD30 /* RichMellonUITests.m */; };
+		8EBB22B81E16DB2000E1FD30 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8EBB22B71E16DB2000E1FD30 /* GoogleService-Info.plist */; };
+		8EBB22C11E16DB8D00E1FD30 /* RM_SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBB22BF1E16DB8D00E1FD30 /* RM_SignUpViewController.m */; };
+		8EBB22C21E16DB8D00E1FD30 /* RM_SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EBB22C01E16DB8D00E1FD30 /* RM_SignUpViewController.xib */; };
+		8EBB22C51E16DBA300E1FD30 /* RM_LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBB22C41E16DBA300E1FD30 /* RM_LogInViewController.m */; };
+		8EBB22C81E16DE8300E1FD30 /* RM_UserStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBB22C71E16DE8300E1FD30 /* RM_UserStore.m */; };
+		8EBB22CB1E16F38A00E1FD30 /* RM_Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBB22CA1E16F38A00E1FD30 /* RM_Constants.m */; };
+		8EBB22CF1E17017A00E1FD30 /* RM_MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBB22CD1E17017A00E1FD30 /* RM_MainTabBarController.m */; };
+		8EBB22D91E170EDF00E1FD30 /* RM_JobStores.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBB22D81E170EDF00E1FD30 /* RM_JobStores.m */; };
+		8EBB22E61E1710DB00E1FD30 /* RM_User.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBB22E51E1710DB00E1FD30 /* RM_User.m */; };
+		8EBB22E91E1710F700E1FD30 /* RM_Business.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBB22E81E1710F700E1FD30 /* RM_Business.m */; };
+		8EBB22EC1E17112B00E1FD30 /* RM_Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBB22EB1E17112B00E1FD30 /* RM_Post.m */; };
+		8EBB22EF1E1712DE00E1FD30 /* RM_Address.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBB22EE1E1712DE00E1FD30 /* RM_Address.m */; };
+		8EBB22F21E171CF200E1FD30 /* RM_Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBB22F11E171CF200E1FD30 /* RM_Contact.m */; };
+		8EBB22F61E17213600E1FD30 /* RM_DBConnectionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBB22F51E17213600E1FD30 /* RM_DBConnectionHandler.m */; };
+		8EBB22F91E1723B300E1FD30 /* RM_DBController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBB22F81E1723B300E1FD30 /* RM_DBController.m */; };
+		8EBB22FF1E18135500E1FD30 /* RM_MainBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBB22FD1E18135500E1FD30 /* RM_MainBoardViewController.m */; };
+		8EBB23001E18135500E1FD30 /* RM_MainBoardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EBB22FE1E18135500E1FD30 /* RM_MainBoardViewController.xib */; };
+		8EBB23051E1813DC00E1FD30 /* RM_MainPTBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBB23031E1813DC00E1FD30 /* RM_MainPTBoardViewController.m */; };
+		8EBB23061E1813DC00E1FD30 /* RM_MainPTBoardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EBB23041E1813DC00E1FD30 /* RM_MainPTBoardViewController.xib */; };
+		8EBB230C1E188EFA00E1FD30 /* RM_SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBB230A1E188EFA00E1FD30 /* RM_SettingViewController.m */; };
+		8EBB230D1E188EFA00E1FD30 /* RM_SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EBB230B1E188EFA00E1FD30 /* RM_SettingViewController.xib */; };
+		BA2AFF5AE3447CB494EFE017 /* libPods-RichMellon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B1CB93E2A7FD3FF52FCE6B9 /* libPods-RichMellon.a */; };
+		CAF89DBC3189923E10C764C0 /* libPods-RichMellonTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39C43DFF2BFF54464B421967 /* libPods-RichMellonTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8EBB229B1E16DAFD00E1FD30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EBB22761E16DAFD00E1FD30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EBB227D1E16DAFD00E1FD30;
+			remoteInfo = RichMellon;
+		};
+		8EBB22A61E16DAFD00E1FD30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EBB22761E16DAFD00E1FD30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EBB227D1E16DAFD00E1FD30;
+			remoteInfo = RichMellon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B3F236A63A3A9B90104330D /* Pods-RichMellon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RichMellon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RichMellon/Pods-RichMellon.debug.xcconfig"; sourceTree = "<group>"; };
+		2ED32197279CCA02CCDAC563 /* Pods-RichMellon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RichMellon.release.xcconfig"; path = "Pods/Target Support Files/Pods-RichMellon/Pods-RichMellon.release.xcconfig"; sourceTree = "<group>"; };
+		344E62223BB9795356F5B2E7 /* Pods-RichMellonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RichMellonUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RichMellonUITests/Pods-RichMellonUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		39C43DFF2BFF54464B421967 /* libPods-RichMellonTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RichMellonTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46246B094E00368068934907 /* libPods-RichMellonUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RichMellonUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5846854BA09A0F7F7E65EE7D /* Pods-RichMellonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RichMellonUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RichMellonUITests/Pods-RichMellonUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7B1CB93E2A7FD3FF52FCE6B9 /* libPods-RichMellon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RichMellon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EBB227E1E16DAFD00E1FD30 /* RichMellon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RichMellon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EBB22821E16DAFD00E1FD30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8EBB22841E16DAFD00E1FD30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8EBB22851E16DAFD00E1FD30 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8EBB228B1E16DAFD00E1FD30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8EBB228E1E16DAFD00E1FD30 /* RichMellon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RichMellon.xcdatamodel; sourceTree = "<group>"; };
+		8EBB22901E16DAFD00E1FD30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EBB22931E16DAFD00E1FD30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8EBB22951E16DAFD00E1FD30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EBB229A1E16DAFD00E1FD30 /* RichMellonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RichMellonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EBB229E1E16DAFD00E1FD30 /* RichMellonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RichMellonTests.m; sourceTree = "<group>"; };
+		8EBB22A01E16DAFD00E1FD30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EBB22A51E16DAFD00E1FD30 /* RichMellonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RichMellonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EBB22A91E16DAFD00E1FD30 /* RichMellonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RichMellonUITests.m; sourceTree = "<group>"; };
+		8EBB22AB1E16DAFD00E1FD30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EBB22B71E16DB2000E1FD30 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8EBB22BE1E16DB8D00E1FD30 /* RM_SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RM_SignUpViewController.h; sourceTree = "<group>"; };
+		8EBB22BF1E16DB8D00E1FD30 /* RM_SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RM_SignUpViewController.m; sourceTree = "<group>"; };
+		8EBB22C01E16DB8D00E1FD30 /* RM_SignUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RM_SignUpViewController.xib; sourceTree = "<group>"; };
+		8EBB22C31E16DBA300E1FD30 /* RM_LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RM_LogInViewController.h; sourceTree = "<group>"; };
+		8EBB22C41E16DBA300E1FD30 /* RM_LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RM_LogInViewController.m; sourceTree = "<group>"; };
+		8EBB22C61E16DE8300E1FD30 /* RM_UserStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RM_UserStore.h; sourceTree = "<group>"; };
+		8EBB22C71E16DE8300E1FD30 /* RM_UserStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RM_UserStore.m; sourceTree = "<group>"; };
+		8EBB22C91E16F38A00E1FD30 /* RM_Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RM_Constants.h; sourceTree = "<group>"; };
+		8EBB22CA1E16F38A00E1FD30 /* RM_Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RM_Constants.m; sourceTree = "<group>"; };
+		8EBB22CC1E17017A00E1FD30 /* RM_MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RM_MainTabBarController.h; sourceTree = "<group>"; };
+		8EBB22CD1E17017A00E1FD30 /* RM_MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RM_MainTabBarController.m; sourceTree = "<group>"; };
+		8EBB22D71E170EDF00E1FD30 /* RM_JobStores.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RM_JobStores.h; sourceTree = "<group>"; };
+		8EBB22D81E170EDF00E1FD30 /* RM_JobStores.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RM_JobStores.m; sourceTree = "<group>"; };
+		8EBB22E41E1710DB00E1FD30 /* RM_User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RM_User.h; sourceTree = "<group>"; };
+		8EBB22E51E1710DB00E1FD30 /* RM_User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RM_User.m; sourceTree = "<group>"; };
+		8EBB22E71E1710F700E1FD30 /* RM_Business.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RM_Business.h; sourceTree = "<group>"; };
+		8EBB22E81E1710F700E1FD30 /* RM_Business.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RM_Business.m; sourceTree = "<group>"; };
+		8EBB22EA1E17112B00E1FD30 /* RM_Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RM_Post.h; sourceTree = "<group>"; };
+		8EBB22EB1E17112B00E1FD30 /* RM_Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RM_Post.m; sourceTree = "<group>"; };
+		8EBB22ED1E1712DE00E1FD30 /* RM_Address.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RM_Address.h; sourceTree = "<group>"; };
+		8EBB22EE1E1712DE00E1FD30 /* RM_Address.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RM_Address.m; sourceTree = "<group>"; };
+		8EBB22F01E171CF200E1FD30 /* RM_Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RM_Contact.h; sourceTree = "<group>"; };
+		8EBB22F11E171CF200E1FD30 /* RM_Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RM_Contact.m; sourceTree = "<group>"; };
+		8EBB22F41E17213600E1FD30 /* RM_DBConnectionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RM_DBConnectionHandler.h; sourceTree = "<group>"; };
+		8EBB22F51E17213600E1FD30 /* RM_DBConnectionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RM_DBConnectionHandler.m; sourceTree = "<group>"; };
+		8EBB22F71E1723B300E1FD30 /* RM_DBController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RM_DBController.h; sourceTree = "<group>"; };
+		8EBB22F81E1723B300E1FD30 /* RM_DBController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RM_DBController.m; sourceTree = "<group>"; };
+		8EBB22FC1E18135500E1FD30 /* RM_MainBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RM_MainBoardViewController.h; sourceTree = "<group>"; };
+		8EBB22FD1E18135500E1FD30 /* RM_MainBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RM_MainBoardViewController.m; sourceTree = "<group>"; };
+		8EBB22FE1E18135500E1FD30 /* RM_MainBoardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RM_MainBoardViewController.xib; sourceTree = "<group>"; };
+		8EBB23021E1813DC00E1FD30 /* RM_MainPTBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RM_MainPTBoardViewController.h; sourceTree = "<group>"; };
+		8EBB23031E1813DC00E1FD30 /* RM_MainPTBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RM_MainPTBoardViewController.m; sourceTree = "<group>"; };
+		8EBB23041E1813DC00E1FD30 /* RM_MainPTBoardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RM_MainPTBoardViewController.xib; sourceTree = "<group>"; };
+		8EBB23091E188EFA00E1FD30 /* RM_SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RM_SettingViewController.h; sourceTree = "<group>"; };
+		8EBB230A1E188EFA00E1FD30 /* RM_SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RM_SettingViewController.m; sourceTree = "<group>"; };
+		8EBB230B1E188EFA00E1FD30 /* RM_SettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RM_SettingViewController.xib; sourceTree = "<group>"; };
+		DB2079CBB3B56677FF8E1DCB /* Pods-RichMellonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RichMellonTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RichMellonTests/Pods-RichMellonTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC22928C36DC1FEA4283856D /* Pods-RichMellonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RichMellonTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RichMellonTests/Pods-RichMellonTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EBB227B1E16DAFD00E1FD30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2AFF5AE3447CB494EFE017 /* libPods-RichMellon.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EBB22971E16DAFD00E1FD30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF89DBC3189923E10C764C0 /* libPods-RichMellonTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EBB22A21E16DAFD00E1FD30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C85E1A8417D31E5A5537D49 /* libPods-RichMellonUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		148E8DBFC683AB6D9B605E8A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B3F236A63A3A9B90104330D /* Pods-RichMellon.debug.xcconfig */,
+				2ED32197279CCA02CCDAC563 /* Pods-RichMellon.release.xcconfig */,
+				DB2079CBB3B56677FF8E1DCB /* Pods-RichMellonTests.debug.xcconfig */,
+				EC22928C36DC1FEA4283856D /* Pods-RichMellonTests.release.xcconfig */,
+				344E62223BB9795356F5B2E7 /* Pods-RichMellonUITests.debug.xcconfig */,
+				5846854BA09A0F7F7E65EE7D /* Pods-RichMellonUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8EBB22751E16DAFD00E1FD30 = {
+			isa = PBXGroup;
+			children = (
+				8EBB22801E16DAFD00E1FD30 /* RichMellon */,
+				8EBB229D1E16DAFD00E1FD30 /* RichMellonTests */,
+				8EBB22A81E16DAFD00E1FD30 /* RichMellonUITests */,
+				8EBB227F1E16DAFD00E1FD30 /* Products */,
+				148E8DBFC683AB6D9B605E8A /* Pods */,
+				E73C1DF5CBCEAF5B50CA42C2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8EBB227F1E16DAFD00E1FD30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EBB227E1E16DAFD00E1FD30 /* RichMellon.app */,
+				8EBB229A1E16DAFD00E1FD30 /* RichMellonTests.xctest */,
+				8EBB22A51E16DAFD00E1FD30 /* RichMellonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EBB22801E16DAFD00E1FD30 /* RichMellon */ = {
+			isa = PBXGroup;
+			children = (
+				8EBB22841E16DAFD00E1FD30 /* AppDelegate.h */,
+				8EBB22851E16DAFD00E1FD30 /* AppDelegate.m */,
+				8EBB22BD1E16DB7300E1FD30 /* Model */,
+				8EBB22BC1E16DB6D00E1FD30 /* View */,
+				8EBB22BB1E16DB6500E1FD30 /* Controller */,
+				8EBB228A1E16DAFD00E1FD30 /* Main.storyboard */,
+				8EBB22901E16DAFD00E1FD30 /* Assets.xcassets */,
+				8EBB22921E16DAFD00E1FD30 /* LaunchScreen.storyboard */,
+				8EBB22B71E16DB2000E1FD30 /* GoogleService-Info.plist */,
+				8EBB22951E16DAFD00E1FD30 /* Info.plist */,
+				8EBB228D1E16DAFD00E1FD30 /* RichMellon.xcdatamodeld */,
+				8EBB22811E16DAFD00E1FD30 /* Supporting Files */,
+			);
+			path = RichMellon;
+			sourceTree = "<group>";
+		};
+		8EBB22811E16DAFD00E1FD30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EBB22821E16DAFD00E1FD30 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8EBB229D1E16DAFD00E1FD30 /* RichMellonTests */ = {
+			isa = PBXGroup;
+			children = (
+				8EBB229E1E16DAFD00E1FD30 /* RichMellonTests.m */,
+				8EBB22A01E16DAFD00E1FD30 /* Info.plist */,
+			);
+			path = RichMellonTests;
+			sourceTree = "<group>";
+		};
+		8EBB22A81E16DAFD00E1FD30 /* RichMellonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8EBB22A91E16DAFD00E1FD30 /* RichMellonUITests.m */,
+				8EBB22AB1E16DAFD00E1FD30 /* Info.plist */,
+			);
+			path = RichMellonUITests;
+			sourceTree = "<group>";
+		};
+		8EBB22BB1E16DB6500E1FD30 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8EBB22F31E17210A00E1FD30 /* RM_DB */,
+				8EBB22C31E16DBA300E1FD30 /* RM_LogInViewController.h */,
+				8EBB22C41E16DBA300E1FD30 /* RM_LogInViewController.m */,
+				8EBB22BE1E16DB8D00E1FD30 /* RM_SignUpViewController.h */,
+				8EBB22BF1E16DB8D00E1FD30 /* RM_SignUpViewController.m */,
+				8EBB23071E1813EA00E1FD30 /* TabBar */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		8EBB22BC1E16DB6D00E1FD30 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8EBB22C01E16DB8D00E1FD30 /* RM_SignUpViewController.xib */,
+				8EBB23011E18136800E1FD30 /* MainTabs */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8EBB22BD1E16DB7300E1FD30 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8EBB22FB1E1751EB00E1FD30 /* Store */,
+				8EBB22FA1E1751D800E1FD30 /* Data */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8EBB22F31E17210A00E1FD30 /* RM_DB */ = {
+			isa = PBXGroup;
+			children = (
+				8EBB22F71E1723B300E1FD30 /* RM_DBController.h */,
+				8EBB22F81E1723B300E1FD30 /* RM_DBController.m */,
+				8EBB22F41E17213600E1FD30 /* RM_DBConnectionHandler.h */,
+				8EBB22F51E17213600E1FD30 /* RM_DBConnectionHandler.m */,
+			);
+			name = RM_DB;
+			sourceTree = "<group>";
+		};
+		8EBB22FA1E1751D800E1FD30 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				8EBB22E41E1710DB00E1FD30 /* RM_User.h */,
+				8EBB22E51E1710DB00E1FD30 /* RM_User.m */,
+				8EBB22E71E1710F700E1FD30 /* RM_Business.h */,
+				8EBB22E81E1710F700E1FD30 /* RM_Business.m */,
+				8EBB22ED1E1712DE00E1FD30 /* RM_Address.h */,
+				8EBB22EE1E1712DE00E1FD30 /* RM_Address.m */,
+				8EBB22F01E171CF200E1FD30 /* RM_Contact.h */,
+				8EBB22F11E171CF200E1FD30 /* RM_Contact.m */,
+				8EBB22EA1E17112B00E1FD30 /* RM_Post.h */,
+				8EBB22EB1E17112B00E1FD30 /* RM_Post.m */,
+				8EBB22C91E16F38A00E1FD30 /* RM_Constants.h */,
+				8EBB22CA1E16F38A00E1FD30 /* RM_Constants.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		8EBB22FB1E1751EB00E1FD30 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				8EBB22C61E16DE8300E1FD30 /* RM_UserStore.h */,
+				8EBB22C71E16DE8300E1FD30 /* RM_UserStore.m */,
+				8EBB22D71E170EDF00E1FD30 /* RM_JobStores.h */,
+				8EBB22D81E170EDF00E1FD30 /* RM_JobStores.m */,
+			);
+			name = Store;
+			sourceTree = "<group>";
+		};
+		8EBB23011E18136800E1FD30 /* MainTabs */ = {
+			isa = PBXGroup;
+			children = (
+				8EBB22FE1E18135500E1FD30 /* RM_MainBoardViewController.xib */,
+				8EBB23041E1813DC00E1FD30 /* RM_MainPTBoardViewController.xib */,
+				8EBB230B1E188EFA00E1FD30 /* RM_SettingViewController.xib */,
+			);
+			name = MainTabs;
+			sourceTree = "<group>";
+		};
+		8EBB23071E1813EA00E1FD30 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				8EBB22CC1E17017A00E1FD30 /* RM_MainTabBarController.h */,
+				8EBB22CD1E17017A00E1FD30 /* RM_MainTabBarController.m */,
+				8EBB23081E1813FF00E1FD30 /* Tabs */,
+			);
+			name = TabBar;
+			sourceTree = "<group>";
+		};
+		8EBB23081E1813FF00E1FD30 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				8EBB22FC1E18135500E1FD30 /* RM_MainBoardViewController.h */,
+				8EBB22FD1E18135500E1FD30 /* RM_MainBoardViewController.m */,
+				8EBB23021E1813DC00E1FD30 /* RM_MainPTBoardViewController.h */,
+				8EBB23031E1813DC00E1FD30 /* RM_MainPTBoardViewController.m */,
+				8EBB23091E188EFA00E1FD30 /* RM_SettingViewController.h */,
+				8EBB230A1E188EFA00E1FD30 /* RM_SettingViewController.m */,
+			);
+			name = Tabs;
+			sourceTree = "<group>";
+		};
+		E73C1DF5CBCEAF5B50CA42C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B1CB93E2A7FD3FF52FCE6B9 /* libPods-RichMellon.a */,
+				39C43DFF2BFF54464B421967 /* libPods-RichMellonTests.a */,
+				46246B094E00368068934907 /* libPods-RichMellonUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EBB227D1E16DAFD00E1FD30 /* RichMellon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EBB22AE1E16DAFD00E1FD30 /* Build configuration list for PBXNativeTarget "RichMellon" */;
+			buildPhases = (
+				BCD990AC88FFA03D644780B2 /* [CP] Check Pods Manifest.lock */,
+				8EBB227A1E16DAFD00E1FD30 /* Sources */,
+				8EBB227B1E16DAFD00E1FD30 /* Frameworks */,
+				8EBB227C1E16DAFD00E1FD30 /* Resources */,
+				306AB9174652DB4C7861DFBC /* [CP] Embed Pods Frameworks */,
+				E4A68897D398DDEE0A474B99 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RichMellon;
+			productName = RichMellon;
+			productReference = 8EBB227E1E16DAFD00E1FD30 /* RichMellon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8EBB22991E16DAFD00E1FD30 /* RichMellonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EBB22B11E16DAFD00E1FD30 /* Build configuration list for PBXNativeTarget "RichMellonTests" */;
+			buildPhases = (
+				E468EEE20FD0878363107A6C /* [CP] Check Pods Manifest.lock */,
+				8EBB22961E16DAFD00E1FD30 /* Sources */,
+				8EBB22971E16DAFD00E1FD30 /* Frameworks */,
+				8EBB22981E16DAFD00E1FD30 /* Resources */,
+				A5A80D8083E7AAD856D31BBC /* [CP] Embed Pods Frameworks */,
+				29C82E7C5E204ED9CD5C8A9C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EBB229C1E16DAFD00E1FD30 /* PBXTargetDependency */,
+			);
+			name = RichMellonTests;
+			productName = RichMellonTests;
+			productReference = 8EBB229A1E16DAFD00E1FD30 /* RichMellonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8EBB22A41E16DAFD00E1FD30 /* RichMellonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EBB22B41E16DAFD00E1FD30 /* Build configuration list for PBXNativeTarget "RichMellonUITests" */;
+			buildPhases = (
+				2B6747642B7B212F87F20D0F /* [CP] Check Pods Manifest.lock */,
+				8EBB22A11E16DAFD00E1FD30 /* Sources */,
+				8EBB22A21E16DAFD00E1FD30 /* Frameworks */,
+				8EBB22A31E16DAFD00E1FD30 /* Resources */,
+				D54A0EFF370585AD5EC89291 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EBB22A71E16DAFD00E1FD30 /* PBXTargetDependency */,
+			);
+			name = RichMellonUITests;
+			productName = RichMellonUITests;
+			productReference = 8EBB22A51E16DAFD00E1FD30 /* RichMellonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EBB22761E16DAFD00E1FD30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = JYSSoftware;
+				TargetAttributes = {
+					8EBB227D1E16DAFD00E1FD30 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = S56UNLSZF8;
+						ProvisioningStyle = Automatic;
+					};
+					8EBB22991E16DAFD00E1FD30 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = S56UNLSZF8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8EBB227D1E16DAFD00E1FD30;
+					};
+					8EBB22A41E16DAFD00E1FD30 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = S56UNLSZF8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8EBB227D1E16DAFD00E1FD30;
+					};
+				};
+			};
+			buildConfigurationList = 8EBB22791E16DAFD00E1FD30 /* Build configuration list for PBXProject "RichMellon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EBB22751E16DAFD00E1FD30;
+			productRefGroup = 8EBB227F1E16DAFD00E1FD30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EBB227D1E16DAFD00E1FD30 /* RichMellon */,
+				8EBB22991E16DAFD00E1FD30 /* RichMellonTests */,
+				8EBB22A41E16DAFD00E1FD30 /* RichMellonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EBB227C1E16DAFD00E1FD30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EBB230D1E188EFA00E1FD30 /* RM_SettingViewController.xib in Resources */,
+				8EBB22941E16DAFD00E1FD30 /* LaunchScreen.storyboard in Resources */,
+				8EBB23001E18135500E1FD30 /* RM_MainBoardViewController.xib in Resources */,
+				8EBB22B81E16DB2000E1FD30 /* GoogleService-Info.plist in Resources */,
+				8EBB23061E1813DC00E1FD30 /* RM_MainPTBoardViewController.xib in Resources */,
+				8EBB22911E16DAFD00E1FD30 /* Assets.xcassets in Resources */,
+				8EBB22C21E16DB8D00E1FD30 /* RM_SignUpViewController.xib in Resources */,
+				8EBB228C1E16DAFD00E1FD30 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EBB22981E16DAFD00E1FD30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EBB22A31E16DAFD00E1FD30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29C82E7C5E204ED9CD5C8A9C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RichMellonTests/Pods-RichMellonTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B6747642B7B212F87F20D0F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		306AB9174652DB4C7861DFBC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RichMellon/Pods-RichMellon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5A80D8083E7AAD856D31BBC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RichMellonTests/Pods-RichMellonTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCD990AC88FFA03D644780B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D54A0EFF370585AD5EC89291 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RichMellonUITests/Pods-RichMellonUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E468EEE20FD0878363107A6C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E4A68897D398DDEE0A474B99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RichMellon/Pods-RichMellon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EBB227A1E16DAFD00E1FD30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EBB228F1E16DAFD00E1FD30 /* RichMellon.xcdatamodeld in Sources */,
+				8EBB22F21E171CF200E1FD30 /* RM_Contact.m in Sources */,
+				8EBB22CB1E16F38A00E1FD30 /* RM_Constants.m in Sources */,
+				8EBB22C51E16DBA300E1FD30 /* RM_LogInViewController.m in Sources */,
+				8EBB22F91E1723B300E1FD30 /* RM_DBController.m in Sources */,
+				8EBB22FF1E18135500E1FD30 /* RM_MainBoardViewController.m in Sources */,
+				8EBB22861E16DAFD00E1FD30 /* AppDelegate.m in Sources */,
+				8EBB22E61E1710DB00E1FD30 /* RM_User.m in Sources */,
+				8EBB22C81E16DE8300E1FD30 /* RM_UserStore.m in Sources */,
+				8EBB22D91E170EDF00E1FD30 /* RM_JobStores.m in Sources */,
+				8EBB230C1E188EFA00E1FD30 /* RM_SettingViewController.m in Sources */,
+				8EBB22E91E1710F700E1FD30 /* RM_Business.m in Sources */,
+				8EBB22C11E16DB8D00E1FD30 /* RM_SignUpViewController.m in Sources */,
+				8EBB22F61E17213600E1FD30 /* RM_DBConnectionHandler.m in Sources */,
+				8EBB22831E16DAFD00E1FD30 /* main.m in Sources */,
+				8EBB22EF1E1712DE00E1FD30 /* RM_Address.m in Sources */,
+				8EBB22EC1E17112B00E1FD30 /* RM_Post.m in Sources */,
+				8EBB22CF1E17017A00E1FD30 /* RM_MainTabBarController.m in Sources */,
+				8EBB23051E1813DC00E1FD30 /* RM_MainPTBoardViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EBB22961E16DAFD00E1FD30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EBB229F1E16DAFD00E1FD30 /* RichMellonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EBB22A11E16DAFD00E1FD30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EBB22AA1E16DAFD00E1FD30 /* RichMellonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8EBB229C1E16DAFD00E1FD30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EBB227D1E16DAFD00E1FD30 /* RichMellon */;
+			targetProxy = 8EBB229B1E16DAFD00E1FD30 /* PBXContainerItemProxy */;
+		};
+		8EBB22A71E16DAFD00E1FD30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EBB227D1E16DAFD00E1FD30 /* RichMellon */;
+			targetProxy = 8EBB22A61E16DAFD00E1FD30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8EBB228A1E16DAFD00E1FD30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EBB228B1E16DAFD00E1FD30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8EBB22921E16DAFD00E1FD30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EBB22931E16DAFD00E1FD30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8EBB22AC1E16DAFD00E1FD30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8EBB22AD1E16DAFD00E1FD30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EBB22AF1E16DAFD00E1FD30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B3F236A63A3A9B90104330D /* Pods-RichMellon.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S56UNLSZF8;
+				INFOPLIST_FILE = RichMellon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JYSSoftware.RichMellon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8EBB22B01E16DAFD00E1FD30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ED32197279CCA02CCDAC563 /* Pods-RichMellon.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S56UNLSZF8;
+				INFOPLIST_FILE = RichMellon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JYSSoftware.RichMellon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8EBB22B21E16DAFD00E1FD30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB2079CBB3B56677FF8E1DCB /* Pods-RichMellonTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = S56UNLSZF8;
+				INFOPLIST_FILE = RichMellonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JYSSoftware.RichMellonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RichMellon.app/RichMellon";
+			};
+			name = Debug;
+		};
+		8EBB22B31E16DAFD00E1FD30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC22928C36DC1FEA4283856D /* Pods-RichMellonTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = S56UNLSZF8;
+				INFOPLIST_FILE = RichMellonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JYSSoftware.RichMellonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RichMellon.app/RichMellon";
+			};
+			name = Release;
+		};
+		8EBB22B51E16DAFD00E1FD30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 344E62223BB9795356F5B2E7 /* Pods-RichMellonUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = S56UNLSZF8;
+				INFOPLIST_FILE = RichMellonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JYSSoftware.RichMellonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RichMellon;
+			};
+			name = Debug;
+		};
+		8EBB22B61E16DAFD00E1FD30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5846854BA09A0F7F7E65EE7D /* Pods-RichMellonUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = S56UNLSZF8;
+				INFOPLIST_FILE = RichMellonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JYSSoftware.RichMellonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RichMellon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EBB22791E16DAFD00E1FD30 /* Build configuration list for PBXProject "RichMellon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EBB22AC1E16DAFD00E1FD30 /* Debug */,
+				8EBB22AD1E16DAFD00E1FD30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EBB22AE1E16DAFD00E1FD30 /* Build configuration list for PBXNativeTarget "RichMellon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EBB22AF1E16DAFD00E1FD30 /* Debug */,
+				8EBB22B01E16DAFD00E1FD30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EBB22B11E16DAFD00E1FD30 /* Build configuration list for PBXNativeTarget "RichMellonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EBB22B21E16DAFD00E1FD30 /* Debug */,
+				8EBB22B31E16DAFD00E1FD30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EBB22B41E16DAFD00E1FD30 /* Build configuration list for PBXNativeTarget "RichMellonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EBB22B51E16DAFD00E1FD30 /* Debug */,
+				8EBB22B61E16DAFD00E1FD30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8EBB228D1E16DAFD00E1FD30 /* RichMellon.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8EBB228E1E16DAFD00E1FD30 /* RichMellon.xcdatamodel */,
+			);
+			currentVersion = 8EBB228E1E16DAFD00E1FD30 /* RichMellon.xcdatamodel */;
+			path = RichMellon.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8EBB22761E16DAFD00E1FD30 /* Project object */;
+}
